@@ -1,0 +1,22 @@
+.show .post{
+	flex-direction: column;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 10px 35px;
+	background-color: #fff;
+}
+
+.comments-show {
+	width: 800px;
+	text-align: justify;
+	line-height: 25px;
+}
+
+.comments-show li {
+	margin-bottom: 30px;
+	background-color: #FFF !important;
+}
+
+.show .desc{
+	max-height: 100%;
+}

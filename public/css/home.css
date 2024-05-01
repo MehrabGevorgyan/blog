@@ -1,0 +1,162 @@
+.no-admin{
+	color: red;
+}
+.monkey {
+	width: 100%;
+	position: absolute;
+	top: 80px;
+}
+
+.message {
+	padding: 0 40px 10px 40px;
+	color:red;
+	font-weight: bold;
+}
+
+/* post */
+.avatar,#avatar {
+
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	background-position: center center !important;
+}
+
+.post {
+	width: 420px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	flex-direction: column;
+	align-items: center;
+	background-color: #EFF;
+}
+
+.post div + div {
+	padding: 5px;
+}
+
+.author, .author div{
+	overflow: hidden;
+}
+
+.author a {text-decoration: underline; color: blue}
+
+.tags{
+	height: 30px;
+	display: flex;
+	align-items: center;	
+}
+
+.tag {
+	font-family: Cursive;
+	color: #0075A8FF;
+	text-decoration: underline;
+	padding: 1px 5px 1px 0px;
+	margin-right: 5px;
+	display: inline-block;
+}
+
+.post h3 {
+	overflow: hidden;
+	font-family: cursive;
+
+}
+
+.post .desc{ 
+	text-align: justify;
+	overflow: hidden;
+	line-height: 20px; 
+	font-family: verdana;
+	max-width: 100%;
+	max-height: 400px;
+}
+
+.desc::first-letter{
+	font-size: 25px;
+	color: red;
+}
+
+/* like, dislike, views, comments */
+
+.like,.dislike,.comments,.views {
+	background-color: transparent !important;
+	background: url('../images/like.png');
+	background-size: cover;
+	background-position: center center;
+	display: inline-block;
+	border-radius: 10px;
+	width: 30px;
+	height: 30px;
+}
+
+.like:hover,.dislike:hover {cursor: pointer;} 
+
+.dislike { 
+	background-image: url('../images/dislike.png');
+	margin-right: 2px;
+}
+
+.comments {
+	background-image: url('../images/comments-icon.jpg');
+	border-radius: 5px;
+	width: 25px;
+	height: 25px;
+	margin: 0 5px;
+	margin-right: 5px;
+}
+
+
+.views {
+	background-image: url('../images/views-icon.jpg');
+	margin-right: 5px;
+	height: 25px;
+}
+
+.count { 
+	font-size: 16px;
+	font-weight: bold;	
+	margin-right: 15px; 
+}
+
+.actions{
+	margin: 10px 0;
+	margin-left: -5px;
+}
+
+
+/* pagination */
+
+.pagination {
+	display: flex;
+	list-style-type: none;
+	padding: 20px;
+	justify-content: center;
+	align-items: center;
+}
+
+.pagination a {
+	color: #fff;
+	text-align: center;
+	background-color: #0D6CF8FF;
+	margin-right: 5px;
+}
+
+.active, .disabled {
+	margin-right: 5px;
+	padding: 10px 15px;
+	background-color: #0D6CF8FF;
+	border-radius: 3px;
+	color: white;
+}
+
+.active {
+	background-color: #519AF9FF;
+}
+
+.admin-post{
+	background-color: #B8E0FF;
+}
